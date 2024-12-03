@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #222;
+    color: #fff;
+}
+
+.categories button, #cards button {
+    margin: 10px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#readings {
+    margin-top: 20px;
+    font-size: 18px;
+    background: #444;
+    padding: 10px;
+    border-radius: 8px;
+}

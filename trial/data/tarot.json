@@ -1,0 +1,17 @@
+[
+    { "id": 1, "category": "romance", "reading": "Love is in the air." },
+    { "id": 2, "category": "romance", "reading": "A new relationship blossoms." },
+    { "id": 3, "category": "romance", "reading": "A past love returns." },
+    { "id": 4, "category": "romance", "reading": "A secret admirer is nearby." },
+    { "id": 5, "category": "romance", "reading": "Open your heart to possibilities." },
+    { "id": 1, "category": "career", "reading": "A promotion is near." },
+    { "id": 2, "category": "career", "reading": "Hard work pays off." },
+    { "id": 3, "category": "career", "reading": "Collaboration leads to success." },
+    { "id": 4, "category": "career", "reading": "A new opportunity awaits." },
+    { "id": 5, "category": "career", "reading": "Time to take risks." },
+    { "id": 1, "category": "money", "reading": "Financial growth is coming." },
+    { "id": 2, "category": "money", "reading": "Investments will yield returns." },
+    { "id": 3, "category": "money", "reading": "Be cautious with expenses." },
+    { "id": 4, "category": "money", "reading": "Unexpected income is on its way." },
+    { "id": 5, "category": "money", "reading": "Charity brings rewards." }
+]

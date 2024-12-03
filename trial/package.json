@@ -1,0 +1,23 @@
+{
+    "name": "tarot-card-reading",
+    "version": "1.0.0",
+    "description": "A simple tarot card reading web app with categories for romance, career, and money.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "tarot",
+      "card-reading",
+      "nodejs",
+      "express",
+      "web-app"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.4"
+    }
+  }
+  
