@@ -1,17 +1,25 @@
 [
-    { "id": 1, "category": "romance", "reading": "Love is in the air." },
-    { "id": 2, "category": "romance", "reading": "A new relationship blossoms." },
-    { "id": 3, "category": "romance", "reading": "A past love returns." },
-    { "id": 4, "category": "romance", "reading": "A secret admirer is nearby." },
-    { "id": 5, "category": "romance", "reading": "Open your heart to possibilities." },
-    { "id": 1, "category": "career", "reading": "A promotion is near." },
-    { "id": 2, "category": "career", "reading": "Hard work pays off." },
-    { "id": 3, "category": "career", "reading": "Collaboration leads to success." },
-    { "id": 4, "category": "career", "reading": "A new opportunity awaits." },
-    { "id": 5, "category": "career", "reading": "Time to take risks." },
-    { "id": 1, "category": "money", "reading": "Financial growth is coming." },
-    { "id": 2, "category": "money", "reading": "Investments will yield returns." },
-    { "id": 3, "category": "money", "reading": "Be cautious with expenses." },
-    { "id": 4, "category": "money", "reading": "Unexpected income is on its way." },
-    { "id": 5, "category": "money", "reading": "Charity brings rewards." }
+    { "id": 1, "category": "romance", "reading": "The Fool represents the start of a new journey, embodying innocence, optimism, and infinite potential, as he approaches life with a carefree, adventurous spirit. He symbolizes freedom from constraints, embracing the unknown with childlike wonder and trust in endless possibilities."},
+    { "id": 2, "category": "romance", "reading": "The Lovers card signifies harmony, balance, and complementary energies in love, while also highlighting the importance of commitment and choice. It suggests that sacrifices may be necessary to nurture love, whether in a relationship or balancing love with other aspects of life." },
+    { "id": 3, "category": "romance", "reading": "The Justice card emphasizes karma and the importance of fairness, encouraging you to treat your partner with respect, honesty, and understanding. Positive actions and a loving attitude will attract harmonious relationships, while resolving conflicts with tact and compromise will help them thrive." },
+    { "id": 4, "category": "romance", "reading": "The Temperance card signifies the importance of patience, moderation, and finding a balanced approach in relationships by avoiding extremes and being mindful of your actions. It encourages fostering harmony through compromise and understanding, ensuring that both partners work together to create a cooperative and balanced partnership." },
+    { "id": 5, "category": "romance", "reading": "The Devil card in love represents temptation, hedonism, and the pursuit of earthly pleasures, urging clear communication and respect for boundaries to avoid harm or misunderstandings. It also warns against co-dependency, emphasizing the need to maintain individuality and balance within relationships to prevent destructive dynamics." },
+    { "id": 1, "category": "money", "reading": "The Wheel of Fortune signifies financial change; stay adaptable and prepared. Whether in comfort or hardship, save wisely and stay alert for new opportunities."},
+    { "id": 2, "category": "money", "reading": "The Star encourages faith and positivity in achieving financial goals. Work diligently while appreciating your current blessings for continued inspiration." },
+    { "id": 3, "category": "money", "reading": "The Tower warns of potential financial upheaval; save and prepare for unexpected losses. Use challenges as wake-up calls to build resilience and focus on what matters most."},
+    { "id": 4, "category": "money", "reading": "The Queen of Wands signals smart financial decision-making through careful planning and focus. Trust your instincts and use this time to evaluate opportunities wisely without overindulging." },
+    { "id": 5, "category": "money", "reading": "The Three of Wands signifies rewards for your hard work and encourages using them to broaden your horizons. Invest in experiences or learning that expand your perspective and relationship with money." },
+    { "id": 1, "category": "career", "reading": "The Magician highlights the power of manifestation and decisive action for career success. Pursue your goals with commitment, but stay cautious of deceptive collaborators." },
+    { "id": 2, "category": "career", "reading": "The Empress brings creativity, passion, and a nurturing energy to your career, enhancing your projects and workplace harmony. Focus on creating a supportive environment to maintain momentum and success." },
+    { "id": 3, "category": "career", "reading": "The Chariot signals ambition and focus, driving career success through discipline and motivation. Stay clear of distractions and pursue your goals with determination." },
+    { "id": 4, "category": "career","reading": "Strength encourages channeling passion and courage into career progress. Use your talents boldly to pursue promotions, career changes, or entrepreneurial goals." },
+    { "id": 5, "category": "career", "reading": "The Sun signifies success, enthusiasm, and fulfillment in your career. Radiate positivity to inspire others and achieve your job or promotion goals." }
 ]
+
+
+
+
+
+
+
+
