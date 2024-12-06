@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Readings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="category-title">Category: </h1>
+    <div id="cards">
+        <button data-id="1">Card 1</button>
+        <button data-id="2">Card 2</button>
+        <button data-id="3">Card 3</button>
+        <button data-id="4">Card 4</button>
+        <button data-id="5">Card 5</button>
+    </div>
+    <form id="selection-form">
+        <input type="text" id="numbers" placeholder="Enter 3 numbers (e.g., 1,3,5)" required>
+        <button type="submit">Get Readings</button>
+    </form>
+    <div id="readings"></div>
+    <script src="script.js"></script>
+
+    <!-- Rating Modal -->
+<div id="rating-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" id="close-modal">&times;</span>
+        <h2>Rate Us!</h2>
+        <p>Please rate your experience (1-5):</p>
+        <div>
+            <input type="radio" id="rating-1" name="rating" value="1">
+            <label for="rating-1">1</label>
+            <input type="radio" id="rating-2" name="rating" value="2">
+            <label for="rating-2">2</label>
+            <input type="radio" id="rating-3" name="rating" value="3">
+            <label for="rating-3">3</label>
+            <input type="radio" id="rating-4" name="rating" value="4">
+            <label for="rating-4">4</label>
+            <input type="radio" id="rating-5" name="rating" value="5">
+            <label for="rating-5">5</label>
+        </div>
+        <button id="submit-rating">Submit Rating</button>
+    </div>
+</div>
+
+</body>
+</html>
+
