@@ -10,14 +10,14 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #49005d;
-    color: #fff;
+    color: #000000;
     padding: 20px;
 }
 
 
 h1 {
     font-size: 2.5em;
-    color: #fff;
+    color: #000000;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -32,12 +32,46 @@ h1 {
    
 }
 
+/* Card Container */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;  /* Set a consistent width for each card */
+    height: 550px; /* Set a consistent height for each card */
+    padding: 15px;
+    background-color: #f0f0f0; /* Light background for contrast */
+    border-radius: 8px;
+    text-align: center;
+    justify-content: space-between; /* Ensure space between image and text */
+    overflow: hidden; /* Prevent overflow if content is too big */
+}
+/* Card Image */
+.card-image {
+    width: 100%;
+    height: 300px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 8px;
+    margin-bottom: 10px; /* Spacing between image and text */
+}
 
+/* Card Text */
+.card-text {
+    font-size: 16px;
+    color: #000000;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: auto; /* Ensure text is pushed to the bottom of the card */
+    min-height: 60px; /* Set a minimum height for the text area */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 button {
     padding: 10px 20px;
     font-size: 1.2em;
     background-color: #800080;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -94,8 +128,13 @@ button:focus {
 #readings {
     margin-top: 30px;
     font-size: 18 px;
-    color : #fff;
+    color : #000000;
     align-items: center;
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    padding: 10px;
 
 
 }
