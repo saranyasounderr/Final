@@ -19,20 +19,36 @@ footer{
 
 .navbar{
     background-color: #49005d;
+    padding: 10px;
 }
 
-.navbar-brand .nav-link{
-    margin: 0px 10px 0px 20px;
+.navbar-brand{
+    margin: 0px 10px 0px 10px;
+    color: #fff;
 }
 
+.nav-link{
+    color: #fff;
+}
 .main{
     height: 500px;
     background-image: url("img1.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.main h1 {
+    color: #fff; /* Ensures the text is white */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a dark shadow for contrast */
+    font-size: 3rem; /* Adjust size as needed */
+    margin: 10px 0; /* Adds spacing */
+}
+
 
 .main p{
     padding: 10px;
@@ -48,6 +64,7 @@ footer{
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
+    color: #49005d;
 }
 
 #readings {
@@ -56,4 +73,27 @@ footer{
     background: #49005d;
     padding: 10px;
     border-radius: 8px;
+}
+
+.categories button, .btn-primary {
+    background-color: #800080; /* Purple background */
+    color: #fff; /* White text */
+    border: none; /* Remove default borders */
+    padding: 15px 20px; /* Add some padding */
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth effects */
+}
+
+.categories button:hover,
+.btn-primary:hover {
+    background-color: #6a006a; /* Darker purple on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.categories button:active,
+.btn-primary:active {
+    background-color: #4a004a; /* Even darker purple when clicked */
+    transform: scale(1); /* Reset zoom */
 }

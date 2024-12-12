@@ -52,23 +52,28 @@
 
     <div class="jumbotron">
       <div class="main">
-      <h1 class="display-4">Hello!</h1>
-      <p class="lead">This is a simple tarot reader! You have been presented with 3 option below, please select one of them to get your tarot card reading.</p>
-      </div>
+        
+        <h1>Hello!</h1>
+
+        <p class="lead">Are you searching for clarity, guidance, or a glimpse into what the universe has in store for you? Our tarot card website is your personal portal to the mysteries of life, love, career, and destiny. With just a simple click, discover insights that can inspire, empower, and transform your journey.
+
+          Whether you’re a seasoned tarot enthusiast or a curious seeker, our intuitive platform makes exploring the ancient art of tarot simple and accessible. Choose from categories like Romance, Career, or Wealth, and let the cards reveal the wisdom you need.
+          
+          Dive in and uncover the secrets written in the stars. Your answers are just a reading away. 🌟✨</p>
       
-      <!--<hr class="my-4">-->
+        <div class="categories">
+          <button onclick="selectCategory('romance')">Romance</button>
+          <button onclick="selectCategory('career')">Career</button>
+          <button onclick="selectCategory('money')">Money</button>
+        </div>
 
-      <div class="categories">
-        <button onclick="selectCategory('romance')">Romance</button>
-        <button onclick="selectCategory('career')">Career</button>
-        <button onclick="selectCategory('money')">Money</button>
+        <script>
+            function selectCategory(category) {
+                window.location.href = `/category.html?category=${category}`;
+            }
+        </script>
+    
       </div>
-
-      <script>
-          function selectCategory(category) {
-              window.location.href = `/category.html?category=${category}`;
-          }
-      </script>
     </div>
 </body>
 
@@ -76,20 +81,20 @@
 
   <div class="container">
     <section>
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://facebook.com/" role="button">
         <i class="fab fa-facebook-f"></i>
       </a>
 
     
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://x.com/" role="button">
         <i class="fab fa-twitter"></i>
       </a>
 
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://google.com/" role="button">
         <i class="fab fa-google"></i>
       </a>
 
-      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="https://instagram.com/" role="button">
         <i class="fab fa-instagram"></i>
       </a>
     </section>
@@ -119,8 +124,8 @@
   </div>
 
   <div style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2020 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="index.html">Tarot Cards</a>
   </div>
 </footer>
 
