@@ -187,10 +187,10 @@ button:focus {
 }
 a{
     color : #292A3E;
-    background-color:#D6A567;
+    background-color:white;
     margin:1px;
     border-color: black;
-    border: 1px solid black;
+    border: 1px solid white;
     width: 4px;
 }
 
