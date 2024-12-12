@@ -7,7 +7,7 @@ body {
 }
 
 footer{
-    background-color: black;
+    background-color: #49005d;
     padding: 20px;
 }
 
@@ -43,10 +43,10 @@ footer{
 }
 
 .main h1 {
-    color: #fff; /* Ensures the text is white */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a dark shadow for contrast */
-    font-size: 3rem; /* Adjust size as needed */
-    margin: 10px 0; /* Adds spacing */
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-size: 3rem;
+    margin: 10px 0;
 }
 
 
@@ -76,24 +76,54 @@ footer{
 }
 
 .categories button, .btn-primary {
-    background-color: #800080; /* Purple background */
-    color: #fff; /* White text */
-    border: none; /* Remove default borders */
-    padding: 15px 20px; /* Add some padding */
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth effects */
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.categories button:hover,
-.btn-primary:hover {
-    background-color: #6a006a; /* Darker purple on hover */
-    transform: scale(1.05); /* Slight zoom effect */
+.categories button:hover, .btn-primary:hover {
+    background-color: #6a006a;
+    transform: scale(1.05);
 }
 
-.categories button:active,
-.btn-primary:active {
-    background-color: #4a004a; /* Even darker purple when clicked */
-    transform: scale(1); /* Reset zoom */
+.categories button:active, .btn-primary:active {
+    background-color: #4a004a;
+    transform: scale(1);
+}
+
+.btn-floating {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #49005d;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.facebook i {
+    color: #4267B2;
+}
+
+.twitter i {
+    color: #1DA1F2;
+}
+
+.google i {
+    color: #DB4437;
+}
+
+.instagram i {
+    color: #E4405F;
 }
